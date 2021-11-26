@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/huddle-landing-page/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/huddle-landing-page/static/js/main.a461a46a.chunk.js",
+    "main.js.map": "/huddle-landing-page/static/js/main.a461a46a.chunk.js.map",
+    "runtime-main.js": "/huddle-landing-page/static/js/runtime-main.f2893e28.js",
+    "runtime-main.js.map": "/huddle-landing-page/static/js/runtime-main.f2893e28.js.map",
+    "static/js/2.c9483a7b.chunk.js": "/huddle-landing-page/static/js/2.c9483a7b.chunk.js",
+    "static/js/2.c9483a7b.chunk.js.map": "/huddle-landing-page/static/js/2.c9483a7b.chunk.js.map",
+    "static/js/3.7b3ea196.chunk.js": "/huddle-landing-page/static/js/3.7b3ea196.chunk.js",
+    "static/js/3.7b3ea196.chunk.js.map": "/huddle-landing-page/static/js/3.7b3ea196.chunk.js.map",
+    "index.html": "/huddle-landing-page/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/huddle-landing-page/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.c9483a7b.chunk.js.LICENSE.txt": "/huddle-landing-page/static/js/2.c9483a7b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/huddle-landing-page/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2893e28.js",
+    "static/js/2.c9483a7b.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.a461a46a.chunk.js"
+  ]
+}
