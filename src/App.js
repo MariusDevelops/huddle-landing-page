@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import logo1 from "./images/logo.svg";
+import image from "./images/illustration-mockups.svg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <main>
+      <section>
+        <Logo />
+        <Illustration />
+      </section>
+      <section>
+        <h1>
+          Build The Community <br /> Your Fans Will Love
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <button>Register</button>
+        <i className="fab fa-facebook-f"></i>
+        <i className="fab fa-twitter"></i>
+        <i className="fab fa-instagram"></i>
+        {/* //h1 //p //button //icons */}
+      </section>
+      <footer>
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge">
+          Frontend Mentor
         </a>
-      </header>
-    </div>
+        . Coded by <a href="/">Your Name Here</a>.
+      </footer>
+    </main>
   );
 }
+
+const Logo = () => <img className="logo" src={logo1} alt="logo" />;
+
+const Illustration = () => (
+  <img className="image" src={image} alt="illustration" />
+);
 
 export default App;
