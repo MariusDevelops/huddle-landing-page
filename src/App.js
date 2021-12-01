@@ -1,4 +1,4 @@
-import "./App.css";
+import "./dist/App.css";
 import logo1 from "./images/logo.svg";
 import image from "./images/illustration-mockups.svg";
 
@@ -14,6 +14,7 @@ function App() {
             <Illustration />
           </div>
         </section>
+
         <section className="section2">
           <h1>
             Build The Community <br /> Your Fans Will Love
@@ -25,18 +26,35 @@ function App() {
           </p>
           <button>Register</button>
           <div className="icons">
-            <i className="fab fa-facebook-f"></i>
+            <div className="fbicon">
+              <i className="fab fa-facebook-f"></i>
+            </div>
             <i className="fab fa-twitter"></i>
             <i className="fab fa-instagram"></i>
           </div>
         </section>
       </div>
-      <footer>
-        Challenge by{" "}
-        <a href="https://www.frontendmentor.io?ref=challenge">
-          Frontend Mentor
-        </a>
-        . Coded by <a href="/">Marius</a>.
+
+      <footer className="attribution">
+        <p>
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a
+            href="https://mariusdevelops.github.io/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Marius
+          </a>
+          .
+        </p>
       </footer>
     </main>
   );
