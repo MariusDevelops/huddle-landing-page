@@ -9,48 +9,78 @@ $soft-magenta: hsl(300, 69%, 71%);
 
 body {
   background-color: $violet;
-  background-image: url(../images/bg-desktop.svg);
+  background-image: url(../images/bg-mobile.svg);
+  // background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: contain;
+  @media (min-width: 650px) {
+    background-image: url(../images/bg-desktop.svg);
+  }
 }
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  margin: 50px 100px;
+  grid-template-columns: 1fr;
+  margin: 35px;
+
+  @media (min-width: 650px) {
+    grid-template-columns: 1.5fr 1fr;
+    margin: 50px 100px;
+  }
 
   /* section one */
+  .logo {
+    max-width: 42%;
+    height: auto;
+  }
+
   .image {
-    padding-top: 75px;
+    padding-top: 50px;
+    max-width: 100%;
+    height: auto;
+    @media (min-width: 650px) {
+      padding-top: 75px;
+    }
   }
 
   /* section two */
   .section2 {
     margin-top: 30%;
     margin-left: 20px;
+    text-align: center;
+    @media (min-width: 650px) {
+      text-align: left;
+    }
 
     h1 {
       font-family: "Poppins", sans-serif;
       font-weight: 600;
-      font-size: 40px;
+      font-size: 20px;
       color: white;
       padding-bottom: 20px;
+      @media (min-width: 650px) {
+        font-size: 40px;
+      }
     }
 
     p {
       font-family: "Open Sans", sans-serif;
       font-weight: 400;
-      font-size: 18px;
+      font-size: 14px;
       color: white;
       padding-bottom: 20px;
+      @media (min-width: 650px) {
+        font-size: 18px;
+      }
     }
 
     button {
       color: $violet;
-      padding: 10px 40px;
+      padding: 10px 60px;
       font-family: "Poppins", sans-serif;
       font-weight: 400;
-      font-size: 18px;
+      font-size: 14px;
       border: none;
       border-radius: 50px;
       &:hover {
@@ -58,25 +88,40 @@ body {
         cursor: pointer;
         transition: 0.5s ease;
       }
+      @media (min-width: 650px) {
+        padding: 10px 40px;
+        font-size: 18px;
+      }
     }
 
     .icons {
       display: flex;
-      justify-content: flex-end;
-      margin-top: 200px;
+      justify-content: center;
+      margin-top: 25%;
       i {
         color: white;
         border: 1px solid white;
         border-radius: 50%;
-        padding: 10px;
-        margin-right: 15px;
+        padding: 5px;
+        margin-right: 10px;
+        font-size: 12px;
+        @media (min-width: 650px) {
+          justify-content: flex-end;
+          margin-top: 200px;
+          padding: 10px;
+          margin-right: 15px;
+          font-size: 18px;
+        }
       }
       .fbicon {
         i {
           color: white;
           border: 1px solid white;
           border-radius: 50%;
-          padding: 10px 14px;
+          padding: 5px 7.5px;
+          @media (min-width: 650px) {
+            padding: 10px 15px;
+          }
         }
       }
       i {
@@ -95,9 +140,12 @@ body {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 9px;
   color: white;
   padding-bottom: 20px;
+  @media (min-width: 650px) {
+    font-size: 12px;
+  }
   p {
     a {
       color: white;
