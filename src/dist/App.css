@@ -55,7 +55,7 @@ body {
 }
 
 .wrapper .section2 {
-  margin-top: 30%;
+  margin-top: 20%;
   margin-left: 20px;
   text-align: center;
 }
@@ -69,8 +69,9 @@ body {
 .wrapper .section2 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   color: white;
+  line-height: 1.6;
   padding-bottom: 20px;
 }
 
@@ -83,8 +84,9 @@ body {
 .wrapper .section2 p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
+  line-height: 1.6;
   padding-bottom: 20px;
 }
 
@@ -99,7 +101,7 @@ body {
   padding: 10px 60px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   border: none;
   border-radius: 50px;
 }
@@ -125,44 +127,46 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
-.wrapper .section2 .icons i {
-  color: white;
-  border: 1px solid white;
+.wrapper .section2 .icons img {
+  width: 30px;
+  height: 30px;
+  border: 1.5px solid white;
   border-radius: 50%;
-  padding: 5px;
+  padding: 6px 5px;
   margin-right: 10px;
-  font-size: 12px;
 }
 
 @media (min-width: 650px) {
-  .wrapper .section2 .icons i {
+  .wrapper .section2 .icons img {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
     margin-top: 200px;
-    padding: 10px;
+    padding: 12px 10px;
     margin-right: 15px;
-    font-size: 18px;
+    height: 50px;
   }
 }
 
-.wrapper .section2 .icons .fbicon i {
-  color: white;
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 5px 7.5px;
+.wrapper .section2 .icons .fbicon img {
+  border: 1.5px solid white;
+  padding: 6px 5px;
 }
 
 @media (min-width: 650px) {
-  .wrapper .section2 .icons .fbicon i {
-    padding: 10px 15px;
+  .wrapper .section2 .icons .fbicon img {
+    padding: 10px 14px;
   }
 }
 
-.wrapper .section2 .icons i:hover {
+.wrapper .section2 .icons .insticon {
+  margin-right: 0px;
+}
+
+.wrapper .section2 .icons img:hover {
   background-color: #e882e8;
   border-color: #e882e8;
   cursor: pointer;

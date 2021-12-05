@@ -1,6 +1,9 @@
 import "./dist/App.css";
 import logo1 from "./images/logo.svg";
 import image from "./images/illustration-mockups.svg";
+import fbIcon from "./images/facebook-f-brands.svg";
+import twitIcon from "./images/twitter-brands.svg";
+import instIcon from "./images/instagram-brands.svg";
 
 function App() {
   return (
@@ -27,10 +30,10 @@ function App() {
           <button>Register</button>
           <div className="icons">
             <div className="fbicon">
-              <i className="fab fa-facebook-f"></i>
+              <img className="fbIcon" src={fbIcon} alt="facebook icon" />
             </div>
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-instagram"></i>
+            <img className="twitIcon" src={twitIcon} alt="twitter icon" />
+            <img className="instIcon" src={instIcon} alt="instagram icon" />
           </div>
         </section>
       </div>
