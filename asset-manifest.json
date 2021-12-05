@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/huddle-landing-page/static/css/main.9af9fb1b.chunk.css",
+    "main.css": "/huddle-landing-page/static/css/main.d62d2c7b.chunk.css",
     "main.js": "/huddle-landing-page/static/js/main.49b3bf59.chunk.js",
     "main.js.map": "/huddle-landing-page/static/js/main.49b3bf59.chunk.js.map",
     "runtime-main.js": "/huddle-landing-page/static/js/runtime-main.7bc52370.js",
@@ -8,7 +8,7 @@
     "static/js/2.2fac0a4f.chunk.js": "/huddle-landing-page/static/js/2.2fac0a4f.chunk.js",
     "static/js/2.2fac0a4f.chunk.js.map": "/huddle-landing-page/static/js/2.2fac0a4f.chunk.js.map",
     "index.html": "/huddle-landing-page/index.html",
-    "static/css/main.9af9fb1b.chunk.css.map": "/huddle-landing-page/static/css/main.9af9fb1b.chunk.css.map",
+    "static/css/main.d62d2c7b.chunk.css.map": "/huddle-landing-page/static/css/main.d62d2c7b.chunk.css.map",
     "static/js/2.2fac0a4f.chunk.js.LICENSE.txt": "/huddle-landing-page/static/js/2.2fac0a4f.chunk.js.LICENSE.txt",
     "static/media/App.css": "/huddle-landing-page/static/media/bg-mobile.41ba0830.svg",
     "static/media/facebook-f-brands.36b03227.svg": "/huddle-landing-page/static/media/facebook-f-brands.36b03227.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.7bc52370.js",
     "static/js/2.2fac0a4f.chunk.js",
-    "static/css/main.9af9fb1b.chunk.css",
+    "static/css/main.d62d2c7b.chunk.css",
     "static/js/main.49b3bf59.chunk.js"
   ]
 }
