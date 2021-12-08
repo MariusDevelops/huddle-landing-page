@@ -12,35 +12,56 @@ body {
   background-image: url(../images/bg-mobile.svg);
   // background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  // background-size: cover;
   background-size: contain;
-  @media (min-width: 650px) {
+  @media (min-width: 634px) {
     background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+  }
+  @media (min-width: 1124px) {
+    background-size: contain;
   }
 }
+
+// main {
+//   display: flex;
+//   flex-direction: column;
+//   align-content: center;
+// }
 
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
   margin: 35px;
+  // justify-items: center;
 
-  @media (min-width: 650px) {
+  @media (min-width: 634px) {
     grid-template-columns: 1.5fr 1fr;
     margin: 50px 100px;
+    // margin: 50px auto;
+    // max-width: 700px;
+    // margin: 25px 50px;
   }
 
   /* section one */
   .logo {
     max-width: 42%;
     height: auto;
+    @media (min-width: 634px) {
+      max-width: 24%;
+      height: auto;
+    }
   }
 
   .image {
     padding-top: 50px;
     max-width: 100%;
     height: auto;
-    @media (min-width: 650px) {
+    @media (min-width: 634px) {
       padding-top: 75px;
+      min-width: 300px;
+      max-width: 80%;
+      display: inline-block;
     }
   }
 
@@ -49,8 +70,11 @@ body {
     margin-top: 20%;
     margin-left: 20px;
     text-align: center;
-    @media (min-width: 650px) {
+    @media (min-width: 634px) {
       text-align: left;
+    }
+    @media (min-width: 1000px) {
+      margin-left: -80px;
     }
 
     h1 {
@@ -60,8 +84,9 @@ body {
       color: white;
       line-height: 1.6;
       padding-bottom: 20px;
-      @media (min-width: 650px) {
-        font-size: 40px;
+      @media (min-width: 634px) {
+        padding-top: 75px;
+        // font-size: 40px;
       }
     }
 
@@ -72,8 +97,8 @@ body {
       color: white;
       line-height: 1.6;
       padding-bottom: 20px;
-      @media (min-width: 650px) {
-        font-size: 18px;
+      @media (min-width: 634px) {
+        // font-size: 18px;
       }
     }
 
@@ -90,16 +115,20 @@ body {
         cursor: pointer;
         transition: 0.5s ease;
       }
-      @media (min-width: 650px) {
-        padding: 10px 40px;
-        font-size: 18px;
-      }
+      // @media (min-width: 600px) {
+      //   padding: 10px 40px;
+      //   font-size: 18px;
+      // }
     }
 
     .icons {
       display: flex;
       justify-content: center;
       margin-top: 20%;
+      @media (min-width: 600px) {
+        justify-content: right;
+        margin-top: 30%;
+      }
       img {
         width: 30px;
         height: 30px;
@@ -108,20 +137,13 @@ body {
         // 50px 12 10 // 6 5 //
         padding: 6px 5px;
         margin-right: 10px;
-        @media (min-width: 650px) {
-          justify-content: flex-end;
-          margin-top: 200px;
-          padding: 12px 10px;
-          margin-right: 15px;
-          height: 50px;
-        }
       }
       .fbIcon {
         img {
           border: 1.5px solid white;
           padding: 6px 5px;
-          @media (min-width: 650px) {
-            padding: 10px 14px;
+          @media (min-width: 634px) {
+            padding: 6px 5px;
           }
         }
       }
@@ -148,7 +170,7 @@ body {
   font-size: 9px;
   color: white;
   padding-bottom: 20px;
-  @media (min-width: 650px) {
+  @media (min-width: 634px) {
     font-size: 12px;
   }
   p {
